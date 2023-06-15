@@ -38,7 +38,7 @@ col_names = [f"{GREEN}TITULO{RESET}",f"{GREEN}AUTOR{RESET}",f"{GREEN}ID{RESET}"]
 
 #Funcion que comprueba si haz introducido una api key en epi_key.py
 def api_key_cheker():
-    if api_key == "":
+    if api_key == "YOUR API HERE" or api_key == "":
         print(f"[{RED}!{RESET}] {RED}No se encontro ninguna api_key, introduzca una API KEY en api_key.py{RESET}\n\n")
         exit(1)
         
