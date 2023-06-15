@@ -3,7 +3,7 @@ import requests, json, signal, urllib.parse
 from api_key import api_key
 from tabulate import tabulate
 
-#Colores
+# Colores
 BLACK = '\033[30m'
 RED = '\033[31m'
 GREEN = '\033[32m'
